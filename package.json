@@ -1,0 +1,29 @@
+{
+  "name": "api-proxy",
+  "version": "1.0.0",
+  "description": "Express proxy server app for hiding API keys, rate limiting and caching",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZainKhan2504/API-Proxy.git"
+  },
+  "author": "Zain Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZainKhan2504/API-Proxy/issues"
+  },
+  "homepage": "https://github.com/ZainKhan2504/API-Proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "needle": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
